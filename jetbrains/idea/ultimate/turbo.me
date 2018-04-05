@@ -20,7 +20,9 @@ meta name="intellij-ultimate"
 ###################################
 
 using turbo/turboscript-tools:2016.8.31
+# Start a new Java Development Kit container
 
+> turbo new jdk:7 --detach --mount=%CD%\samples
 ###################################
 # Download and install
 ###################################
